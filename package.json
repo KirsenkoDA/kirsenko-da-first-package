@@ -1,0 +1,36 @@
+{
+  "name": "calculate-circle-area",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch"
+  },
+  "files": [
+    "dist",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": "kirsenko_da",
+  "license": "MIT",
+  "keywords": [
+    "hello",
+    "world",
+    "greeting",
+    "package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KirsenkoDA/kirsenko-da-first-package.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
